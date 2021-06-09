@@ -57,10 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SharkMovement.cs" />
+    <Compile Include="Assets\Scripts\TextHover.cs" />
     <Compile Include="Assets\Scripts\FishMovement.cs" />
-    <Compile Include="Assets\TextHover.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Timer.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

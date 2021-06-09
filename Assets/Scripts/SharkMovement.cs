@@ -9,6 +9,12 @@ public class SharkMovement : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private GameManager gameManager;
 
+    private void Awake()
+    {
+        transform.position = Vector3.zero;
+        transform.rotation = Quaternion.identity;
+    }
+
     // Updates the destination of the shark
     void Update()
     {
